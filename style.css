@@ -280,6 +280,105 @@ DESIGNED FOR EVERYONE
   width: 60%;
   height: 650px;
 }
+
+/* 
+
+
+
+
+
+
+
+STORIES
+
+
+
+
+
+
+
+
+*/
+
+#stories {
+  display: flex;
+  align-items: center;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.story-title {
+  font-weight: 700;
+}
+
+.story-description {
+  padding: 0 2rem;
+}
+
+.story-author {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.gray-line {
+  height: 1px;
+  width: 85%;
+  background: #fff;
+  opacity: 0.6;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.read-story-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.story-link {
+  color: #fff;
+  font-weight: 700;
+}
+
+#mountain-story {
+  background: linear-gradient(rgba(20, 20, 20, 0.3), rgba(20, 20, 20, 0.3)),
+    url(./img/mountains.jpg) no-repeat center center/cover;
+  width: 25%;
+  height: 350px;
+  color: #fff;
+}
+
+#sunset-story {
+  background: linear-gradient(rgba(20, 20, 20, 0.3), rgba(20, 20, 20, 0.3)),
+    url(./img/cityscapes.jpg) no-repeat center center/cover;
+  width: 25%;
+  height: 350px;
+  color: #fff;
+}
+
+#voyage-story {
+  background: linear-gradient(rgba(20, 20, 20, 0.3), rgba(20, 20, 20, 0.3)),
+    url(./img/18-days-voyage.jpg) no-repeat center center/cover;
+  width: 25%;
+  height: 350px;
+  color: #fff;
+}
+
+#architect-story {
+  background: linear-gradient(rgba(20, 20, 20, 0.3), rgba(20, 20, 20, 0.3)),
+    url(./img/architecturals.jpg) no-repeat center center/cover;
+  width: 25%;
+  height: 350px;
+  color: #fff;
+}
+
 /* 
 
 
