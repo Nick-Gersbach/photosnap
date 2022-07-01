@@ -250,6 +250,36 @@ BEAUTIFUL STORIES
 .get-an-invite-text-link a {
   color: #000;
 }
+
+/* 
+
+
+
+
+
+
+
+DESIGNED FOR EVERYONE
+
+
+
+
+
+
+
+
+*/
+
+#designed-for-everyone {
+  display: flex;
+  align-items: center;
+}
+
+.camera-img {
+  background: url(./img/designed-for-everyone.jpg) no-repeat center center/cover;
+  width: 60%;
+  height: 650px;
+}
 /* 
 
 
@@ -422,5 +452,13 @@ Media Queries
     margin-top: 1.3rem;
     margin-bottom: 2rem;
     opacity: 0.6;
+  }
+
+  #designed-for-everyone {
+    flex-direction: column-reverse;
+  }
+
+  .camera-img {
+    width: 100%;
   }
 }
