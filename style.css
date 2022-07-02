@@ -400,7 +400,7 @@ Home Features
 
 #home-features {
   margin-top: 7rem;
-  margin-bottom: 10rem;
+  margin-bottom: 7rem;
   margin-left: auto;
   margin-right: auto;
   display: grid;
@@ -419,6 +419,43 @@ Home Features
 
 .middle-home-feature {
   margin: 2rem;
+}
+
+footer {
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 5rem;
+}
+
+footer a {
+  color: white;
+}
+
+.footer-logo-socials-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+}
+
+.social-links a {
+  padding: 0 7px;
+}
+
+.get-an-invite-container {
+  margin-bottom: 3rem;
+}
+
+.footer-arrow {
+  margin-left: 1rem;
 }
 
 /* 
@@ -567,6 +604,17 @@ Media Queries
   }
 }
 
+@media screen and (min-device-width: 601px) and (max-device-width: 767px) {
+  footer {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer-nav {
+    margin: 2rem 0rem;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .container {
     padding: 0 1rem;
@@ -629,5 +677,14 @@ Media Queries
 
   #home-features {
     padding: 0 2rem;
+  }
+
+  footer {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer-nav {
+    margin: 2rem 0rem;
   }
 }
