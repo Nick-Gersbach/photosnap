@@ -301,8 +301,8 @@ STORIES
 */
 
 #stories {
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .story {
@@ -326,7 +326,7 @@ STORIES
 
 .gray-line {
   height: 1px;
-  width: 85%;
+  width: 90%;
   background: #fff;
   opacity: 0.6;
   margin-left: auto;
@@ -339,7 +339,7 @@ STORIES
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 2rem;
+  padding: 0rem 2rem 2rem 2rem;
 }
 
 .story-link {
@@ -350,7 +350,7 @@ STORIES
 #mountain-story {
   background: linear-gradient(rgba(20, 20, 20, 0.3), rgba(20, 20, 20, 0.3)),
     url(./img/mountains.jpg) no-repeat center center/cover;
-  width: 25%;
+
   height: 350px;
   color: #fff;
 }
@@ -358,7 +358,7 @@ STORIES
 #sunset-story {
   background: linear-gradient(rgba(20, 20, 20, 0.3), rgba(20, 20, 20, 0.3)),
     url(./img/cityscapes.jpg) no-repeat center center/cover;
-  width: 25%;
+
   height: 350px;
   color: #fff;
 }
@@ -366,7 +366,7 @@ STORIES
 #voyage-story {
   background: linear-gradient(rgba(20, 20, 20, 0.3), rgba(20, 20, 20, 0.3)),
     url(./img/18-days-voyage.jpg) no-repeat center center/cover;
-  width: 25%;
+
   height: 350px;
   color: #fff;
 }
@@ -374,7 +374,7 @@ STORIES
 #architect-story {
   background: linear-gradient(rgba(20, 20, 20, 0.3), rgba(20, 20, 20, 0.3)),
     url(./img/architecturals.jpg) no-repeat center center/cover;
-  width: 25%;
+
   height: 350px;
   color: #fff;
 }
@@ -398,41 +398,7 @@ Media Queries
 
 */
 
-@media only screen and (max-width: 900px) {
-  .nav-btn {
-    width: 120px;
-  }
-
-  #create-and-share {
-    display: flex;
-    align-items: center;
-    margin-top: 2rem;
-  }
-
-  .text-dark {
-    padding: 2rem;
-    height: 580px;
-  }
-
-  .text-dark h2 {
-    font-size: 32px;
-  }
-
-  .dock-man-img {
-    width: 100%;
-  }
-
-  .text-light {
-    padding: 2rem;
-    height: 580px;
-  }
-}
-
-@media only screen and (max-width: 820px) {
-  .container {
-    padding: 0 1rem;
-  }
-
+@media only screen and (max-width: 968px) {
   .open-mobile {
     display: block;
     position: absolute;
@@ -511,6 +477,50 @@ Media Queries
   }
 
   #create-and-share {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .text-dark {
+    padding: 3rem;
+    height: 650px;
+    width: 50%;
+  }
+
+  .text-dark h2 {
+    font-size: 32px;
+  }
+
+  .dock-man-img {
+    width: 50%;
+  }
+
+  .text-light {
+    padding: 3rem;
+    height: 580px;
+    width: 50%;
+  }
+
+  .laptop-img {
+    width: 50%;
+  }
+
+  .camera-img {
+    width: 50%;
+  }
+
+  #stories {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  #create-and-share {
     flex-direction: column-reverse;
   }
 
@@ -559,5 +569,9 @@ Media Queries
 
   .camera-img {
     width: 100%;
+  }
+
+  #stories {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
