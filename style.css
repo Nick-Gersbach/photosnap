@@ -309,6 +309,12 @@ STORIES
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  transition: all 0.2s ease-in-out;
+}
+
+.story:hover {
+  padding-bottom: 1rem;
+  cursor: pointer;
 }
 
 .story-title {
