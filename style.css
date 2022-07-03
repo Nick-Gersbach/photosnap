@@ -389,6 +389,89 @@ STORIES
   height: 350px;
   color: #fff;
 }
+#world-tour-story {
+  background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)),
+    url(./img/world-tour.jpg) no-repeat center center/cover;
+  height: 350px;
+  color: #fff;
+}
+
+#unforseen-corners-story {
+  background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)),
+    url(./img/unforeseen-corners.jpg) no-repeat center center/cover;
+  height: 350px;
+  color: #fff;
+}
+
+#king-of-africa {
+  background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)),
+    url(./img/king-on-africa.jpg) no-repeat center center/cover;
+  height: 350px;
+  color: #fff;
+}
+
+#trip-to-nowhere {
+  background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)),
+    url(./img/trip-to-nowhere.jpg) no-repeat center center/cover;
+  height: 350px;
+  color: #fff;
+}
+
+#rage-of-the-sea {
+  background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)),
+    url(./img/rage-of-the-sea.jpg) no-repeat center center/cover;
+  height: 350px;
+  color: #fff;
+}
+
+#running-free {
+  background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)),
+    url(./img/running-free.jpg) no-repeat center center/cover;
+  height: 350px;
+  color: #fff;
+}
+
+#behind-the-waves {
+  background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)),
+    url(./img/behind-the-waves.jpg) no-repeat center center/cover;
+  height: 350px;
+  color: #fff;
+}
+
+#calm-waters {
+  background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)),
+    url(./img/calm-waters.jpg) no-repeat center center/cover;
+  height: 350px;
+  color: #fff;
+}
+
+#the-milky-way {
+  background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)),
+    url(./img/milky-way.jpg) no-repeat center center/cover;
+  height: 350px;
+  color: #fff;
+}
+
+#dark-forest {
+  background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)),
+    url(./img/dark-forest.jpg) no-repeat center center/cover;
+  height: 350px;
+  color: #fff;
+}
+
+#beauty {
+  background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)),
+    url(./img/somwarpet.jpg) no-repeat center center/cover;
+  height: 350px;
+  color: #fff;
+}
+
+#land-of-dreams {
+  background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)),
+    url(./img/land-of-dreams.jpg) no-repeat center center/cover;
+  height: 350px;
+  color: #fff;
+}
 
 /* 
 
