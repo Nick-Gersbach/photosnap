@@ -63,6 +63,11 @@ ul {
   list-style-type: none;
 }
 
+.bold-text {
+  font-weight: 700;
+  color: white;
+}
+
 /* 
 
 
@@ -313,7 +318,7 @@ STORIES
 }
 
 .story:hover {
-  paddinge-bottom: 1rem;
+  padding-bottom: 1rem;
   cursor: pointer;
 }
 
@@ -427,6 +432,108 @@ Home Features
   margin: 2rem;
 }
 
+/* 
+
+
+
+
+
+
+
+STORIES PAGE
+
+
+
+
+
+
+
+
+*/
+
+#stories-showcase {
+  background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)),
+    url(./img/moon-of-appalacia.jpg) no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 2rem;
+}
+
+.stories-showcase-text {
+  margin-left: 8rem;
+  width: 35%;
+  line-height: 1.8 !important;
+}
+
+.stories-showcase-text h4 {
+  margin-bottom: 1.5rem;
+}
+.stories-showcase-text h2 {
+  margin-bottom: 0.5rem;
+}
+
+.story-showcase-author {
+  opacity: 0.6;
+  margin-bottom: 2rem;
+}
+
+.story-showcase-exerpt {
+  opacity: 0.6;
+  margin-bottom: 1rem;
+}
+
+.showcase-read-story-link a {
+  color: #fff;
+}
+
+.arrow-span {
+  margin-left: 1rem;
+}
+.stories-text-dark-container {
+  display: none;
+  background: #000;
+  color: #fff;
+  padding: 0 2rem;
+}
+
+.mobile-stories-h4 {
+  padding-top: 3rem;
+}
+
+.mobile-stories-h2 {
+  margin: 1rem 0;
+  font-size: 32px;
+}
+
+.mobile-story-showcase-author {
+  margin-bottom: 1.3rem;
+}
+
+.mobile-story-showcase-exerpt {
+  margin-bottom: 1.3rem;
+}
+
+/* 
+
+
+
+
+
+
+FOOTER
+
+
+
+
+
+
+
+
+*/
+
 footer {
   background: #000;
   display: flex;
@@ -488,7 +595,7 @@ Media Queries
 
 */
 
-@media only screen and (max-width: 968px) {
+@media only screen and (max-width: 1023px) {
   .open-mobile {
     display: block;
     position: absolute;
@@ -613,6 +720,22 @@ Media Queries
   .home-feature {
     margin: 2rem 0rem;
   }
+
+  #stories-showcase {
+    background: linear-gradient(rgba(20, 20, 20, 0.4), rgba(20, 20, 20, 0.4)),
+      url(./img/tablet-moon-of-appalacia.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    height: 80vh;
+  }
+  .stories-showcase-text {
+    display: none;
+  }
+
+  .stories-text-dark-container {
+    display: block;
+  }
 }
 
 @media screen and (min-device-width: 601px) and (max-device-width: 767px) {
@@ -621,8 +744,18 @@ Media Queries
     justify-content: center;
   }
 
-  .footer-nav {
-    margin: 2rem 0rem;
+  #stories-showcase {
+    background: linear-gradient(rgba(20, 20, 20, 0.4), rgba(20, 20, 20, 0.4)),
+      url(./img/tablet-moon-of-appalacia.jpg) no-repeat center center/cover;
+    height: 100vh;
+  }
+
+  .stories-showcase-text {
+    display: none;
+  }
+
+  .stories-text-dark-container {
+    display: block;
   }
 }
 
@@ -688,6 +821,20 @@ Media Queries
 
   #home-features {
     padding: 0 2rem;
+  }
+
+  #stories-showcase {
+    background: linear-gradient(rgba(20, 20, 20, 0.4), rgba(20, 20, 20, 0.4)),
+      url(./img/mobile-moon-of-appalacia.jpg) no-repeat center center/cover;
+    height: 50vh;
+  }
+
+  .stories-showcase-text {
+    display: none;
+  }
+
+  .stories-text-dark-container {
+    display: block;
   }
 
   footer {
