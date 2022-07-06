@@ -694,7 +694,7 @@ Pricing
 }
 
 input:checked + .slider {
-  background-color: #2196f3;
+  background-color: #000;
 }
 
 input:focus + .slider {
@@ -776,6 +776,20 @@ input:checked + .slider:before {
   font-weight: 700;
 }
 
+.price-box-price.hide {
+  display: none;
+}
+
+.price-box-price-year {
+  font-size: 40px;
+  font-weight: 700;
+  display: none;
+}
+
+.price-box-price-year.show {
+  display: block;
+}
+
 .price-box-btn-dark {
   background: #000;
   color: #fff;
@@ -784,6 +798,12 @@ input:checked + .slider:before {
   margin-top: 2rem;
   padding: 7px 0;
   font-weight: 700;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.price-box-btn-dark:hover {
+  opacity: 0.9;
 }
 
 .price-box-btn-light {
@@ -794,8 +814,25 @@ input:checked + .slider:before {
   margin-top: 2rem;
   padding: 7px 0;
   font-weight: 700;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
 }
 
+.price-box-btn-light:hover {
+  opacity: 0.9;
+}
+
+.price-per-year {
+  display: none;
+}
+
+.price-per-month.hide-monthly-price {
+  display: none;
+}
+
+.price-per-year.show-yearly-price {
+  display: block;
+}
 /* 
 
 
