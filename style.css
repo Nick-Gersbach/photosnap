@@ -875,6 +875,10 @@ td {
   display: none;
 }
 
+.mobile-features {
+  display: none;
+}
+
 .mobile-features-container {
   margin-top: 3rem;
 }
