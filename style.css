@@ -993,8 +993,8 @@ Media Queries
   .open-mobile {
     display: block;
     position: absolute;
-    top: 20px;
-    right: 16px;
+    top: 34px;
+    right: 20px;
   }
 
   .open-mobile.hide {
@@ -1206,7 +1206,7 @@ Media Queries
 
 @media only screen and (max-width: 600px) {
   .container {
-    padding: 0 1rem;
+    padding: 1rem;
   }
 
   #create-and-share {
