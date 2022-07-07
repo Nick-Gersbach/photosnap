@@ -871,12 +871,39 @@ td {
   padding: 1rem 4rem;
 }
 
-.black-line {
+.mobile-table-heading {
+  display: none;
+}
+
+.mobile-features-container {
+  margin-top: 3rem;
+}
+
+.mobile-features-container h4 {
+  text-align: center;
+  font-size: 16px;
+}
+
+.mobile-features-titles {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 1.5rem;
+}
+
+.mobile-features-checks {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 5px;
+  padding-right: 22px;
+}
+
+.mobile-features-line {
   height: 1px;
-  background: #000;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 90%;
+  background: #dfdfdf;
+  margin: 1rem auto;
 }
 
 /* 
@@ -1126,6 +1153,10 @@ Media Queries
     margin-right: auto;
     width: 60%;
   }
+
+  .mobile-features {
+    display: none;
+  }
 }
 
 @media screen and (min-device-width: 601px) and (max-device-width: 767px) {
@@ -1155,6 +1186,21 @@ Media Queries
   #beta-showcase {
     height: 350px;
     padding: 0 2rem;
+  }
+
+  .desktop-table {
+    display: none;
+  }
+
+  .mobile-table {
+    display: block;
+  }
+
+  .mobile-table-heading {
+    display: block;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 22px;
   }
 }
 
@@ -1283,6 +1329,20 @@ Media Queries
 
   .price-box-description {
     width: 100%;
+  }
+
+  td {
+    padding: 1rem 2rem;
+  }
+
+  .desktop-table {
+    display: none;
+  }
+
+  .mobile-table-heading {
+    display: block;
+    text-align: center;
+    margin-top: 4rem;
   }
 
   footer {
