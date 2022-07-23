@@ -994,7 +994,7 @@ Media Queries
   .open-mobile {
     display: block;
     position: absolute;
-    top: 34px;
+    top: 23px;
     right: 20px;
   }
 
@@ -1206,6 +1206,13 @@ Media Queries
 }
 
 @media only screen and (max-width: 600px) {
+  .open-mobile {
+    display: block;
+    position: absolute;
+    top: 34px;
+    right: 20px;
+  }
+
   .container {
     padding: 1rem;
   }
